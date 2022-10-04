@@ -4,6 +4,7 @@
     --color-accent: #2196f3;
     --color-bg-footer: #2f303a;
     --color-titles: #212121;
+    --color-text-primary: #757575;
 }
 
 
@@ -16,7 +17,7 @@ body {
     letter-spacing: 0.03em;
 
     background-color: #fff;
-    color: #757575;
+    color: var(--color-text-primary);
 }
 
 .list-nd {
@@ -59,12 +60,17 @@ body {
     color: var(--color-accent)
 }
 
+.active-page {
+    color: var(--color-accent)
+}
+
+
 .contacts-h {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #757575;
+    color: var(--color-text-primary);
     text-decoration: none;
 }
 
@@ -78,7 +84,7 @@ body {
 /* Main */
 /* Hero section */
 .hero-section {
-    background-color: var(--color-bg-primary);
+    background-color: #2F303A;
 }
 
 .hero-title {
@@ -90,7 +96,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    color: #1fffff;
+    color: #fff;
 }
 
 .button-main {
@@ -110,7 +116,7 @@ body {
 
 /* Features */
 .features-section {
-    background-color: var(--color-bg-primary);
+    /* background-color: var(--color-bg-primary); */
 }
 
 .features-titles-list {
@@ -123,7 +129,7 @@ body {
 
 /* What we do */
 .wwd-section {
-    background-color: var(--color-bg-primary);
+    /* background-color: var(--color-bg-primary); */
 }
 
 .wwd-title {
@@ -187,7 +193,7 @@ body {
 
 /* Portfolio */
 .portfolio-section {
-    background-color: var(--color-bg-primary);
+    /* background-color: var(--color-bg-primary); */
 }
 
 .portfolio-titles-list {
@@ -207,7 +213,7 @@ body {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--color-text-primary);
 }
 
 
